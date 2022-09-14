@@ -1,0 +1,7 @@
+{
+  "name": "schoology",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
