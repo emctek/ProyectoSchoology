@@ -5,3 +5,4 @@
 
 
 creacion de pages @eleazar
+se creo pagina sesion y se agrago el logo al navegator @eleazar
