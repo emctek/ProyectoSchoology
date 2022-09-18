@@ -5,13 +5,18 @@ const routes: Routes = [
 
   {
     path: '',
-    redirectTo: 'inicio',
+    redirectTo: 'sesion',
     pathMatch: 'full'
   },
   {
     path: 'inicio',
     loadChildren: () => import('./pages/inicio/inicio.module').then( m => m.InicioPageModule)
+  },
+  {
+    path: 'sesion',
+    loadChildren: () => import('./pages/sesion/sesion/sesion.module').then( m => m.SesionPageModule)
   }
+
 ];
 
 @NgModule({
