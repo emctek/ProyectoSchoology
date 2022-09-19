@@ -15,7 +15,24 @@ const routes: Routes = [
   {
     path: 'sesion',
     loadChildren: () => import('./pages/sesion/sesion/sesion.module').then( m => m.SesionPageModule)
+  },
+  {
+    path: 'cursos',
+    loadChildren: () => import('./pages/cursos/cursos/cursos.module').then( m => m.CursosPageModule)
+  },
+  {
+    path: 'grupos',
+    loadChildren: () => import('./pages/grupos/grupos/grupos.module').then( m => m.GruposPageModule)
+  },
+  {
+    path: 'recursos',
+    loadChildren: () => import('./pages/recursos/recursos/recursos.module').then( m => m.RecursosPageModule)
+  },
+  {
+    path: 'calificaciones',
+    loadChildren: () => import('./pages/calificaciones/calificaciones/calificaciones.module').then( m => m.CalificacionesPageModule)
   }
+
 
 ];
 
