@@ -9,14 +9,19 @@ import { InicioPageRoutingModule } from './inicio-routing.module';
 import { InicioPage } from './inicio.page';
 import { BarraComponent } from '../barra/barra.component';
 import { LoginComponent } from '../sesion/login/login.component';
+import { CabeceraComponent } from '../cabecera/cabecera.component';
 
 @NgModule({
+
+
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InicioPageRoutingModule
+    InicioPageRoutingModule,
+
+
   ],
-  declarations: [InicioPage,BarraComponent,LoginComponent]
+  declarations: [InicioPage,BarraComponent,CabeceraComponent]
 })
 export class InicioPageModule {}

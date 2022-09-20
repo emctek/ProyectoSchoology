@@ -7,6 +7,8 @@ import { IonicModule } from '@ionic/angular';
 import { CalificacionesPageRoutingModule } from './calificaciones-routing.module';
 
 import { CalificacionesPage } from './calificaciones.page';
+import { BarraComponent } from '../../barra/barra.component';
+import { CabeceraComponent } from '../../cabecera/cabecera.component';
 
 @NgModule({
   imports: [
@@ -15,6 +17,6 @@ import { CalificacionesPage } from './calificaciones.page';
     IonicModule,
     CalificacionesPageRoutingModule
   ],
-  declarations: [CalificacionesPage]
+  declarations: [CalificacionesPage,BarraComponent,CabeceraComponent]
 })
 export class CalificacionesPageModule {}

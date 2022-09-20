@@ -4,19 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SesionPageRoutingModule } from './sesion-routing.module';
+import { RecuperarPageRoutingModule } from './recuperar-routing.module';
 
-import { SesionPage } from './sesion.page';
-import { LoginComponent } from '../login/login.component';
+import { RecuperarPage } from './recuperar.page';
 import { CabeceraComponent } from '../../cabecera/cabecera.component';
+import { RecuperaCComponent } from '../recupera-c/recupera-c.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SesionPageRoutingModule
+    RecuperarPageRoutingModule
   ],
-  declarations: [SesionPage,LoginComponent,CabeceraComponent]
+  declarations: [RecuperarPage,CabeceraComponent,RecuperaCComponent]
 })
-export class SesionPageModule {}
+export class RecuperarPageModule {}

@@ -31,7 +31,16 @@ const routes: Routes = [
   {
     path: 'calificaciones',
     loadChildren: () => import('./pages/calificaciones/calificaciones/calificaciones.module').then( m => m.CalificacionesPageModule)
+  },
+  {
+    path: 'recuperar',
+    loadChildren: () => import('./pages/sesion/recuperar/recuperar.module').then( m => m.RecuperarPageModule)
+  },
+  {
+    path: 'iniciounico',
+    loadChildren: () => import('./pages/sesion/iniciounico/iniciounico.module').then( m => m.IniciounicoPageModule)
   }
+
 
 
 ];
