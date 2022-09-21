@@ -18,7 +18,7 @@ import { CabeceraComponent } from '../cabecera/cabecera.component';
     CommonModule,
     FormsModule,
     IonicModule,
-    InicioPageRoutingModule,
+    InicioPageRoutingModule
 
 
   ],
